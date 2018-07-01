@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "my-app-alectron-quickstart",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "description": "A Electron Application QuickStart - TODO LIST",
+  "main": "cekogha-main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/electron/my-app-electron-quickstart",
   "keywords": [
     "Electron",
     "quick",
@@ -18,5 +18,9 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
   }
 }

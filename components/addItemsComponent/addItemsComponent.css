@@ -1,0 +1,10 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+    padding: 10px;
+}
+
+.form-addItems{
+    display : grid;
+    grid-template-columns: 70% 30%;
+}
