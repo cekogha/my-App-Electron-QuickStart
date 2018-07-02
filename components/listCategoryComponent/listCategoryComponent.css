@@ -1,0 +1,16 @@
+@import "node_modules/materialize-css/dist/css/materialize.min.css";
+
+.grid-card-index{
+    display : grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-gap: 20px;
+}
+
+.card-index{
+    height: 200px;
+    width: 300px;
+}
+
+.card-content-index{
+    max-height: 200px;
+}

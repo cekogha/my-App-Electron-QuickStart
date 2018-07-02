@@ -1,0 +1,23 @@
+@import "node_modules/materialize-css/dist/css/materialize.min.css";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+.grid-card-index{
+    display : grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-gap: 20px;
+}
+
+.card-index{
+    height: 200px;
+    width: 300px;
+}
+
+.card-content-index{
+    max-height: 200px;
+}
+
+.separator-grid{
+    display : grid;
+    grid-template-columns: 10% 27% 50% 10%;
+    grid-gap: 5px;
+}
